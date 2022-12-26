@@ -504,7 +504,10 @@ hr.style-three {
   position: relative;
   cursor: pointer;
 }
-
+.tasty-menu-btn.active-item {
+  color: var(--accent-color-300);
+  font-weight: var(--fw-bold);
+}
 .tasty-menu-btn.active-item::before {
   content: "";
   position: absolute;
@@ -513,7 +516,7 @@ hr.style-three {
   transform: translateX(-50%);
   width: calc(130%);
   height: 1px;
-  background-color: var(--secondary-color-100);
+  background-color: var(--accent-color-300);
 }
 
 .tasty-menu-items {
@@ -844,4 +847,11 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 
 .carousel[data-images] {
   height: 80vh;
+}
+
+/* developer signature */
+.developer {
+  margin: 0 0.4rem;
+  color: var(--accent-color-200);
+  font-weight: var(--fw-bold);
 }
