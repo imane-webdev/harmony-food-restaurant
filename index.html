@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kristi:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <title>Harmony Food Restaurant - Home page</title>
+  </head>
+  <body>
+    <header class="primary-header">
+      <div class="container">
+        <div class="nav-wrapper" id="nav-wrapper">
+          <a href="#" class="logo">Harmony Food</a>
+          <button class="mobile-nav-toggle" id="mobile-nav-toggle">
+            <i class="fa-sharp fa-solid fa-bars icon-hamburger"></i>
+            <i class="fa-solid fa-xmark icon-close"></i>
+          </button>
+          <nav class="primary-navigation" id="primary-navigation">
+            <ul role="list" class="nav-list">
+              <li><a href="#home"  class="header-item">HOME</a></li>
+              <li><a href="#resto"  class="header-item">RESTO</a></li>
+              <li><a href="#menu"  class="header-item">MENU</a></li>
+              <li><a href="#special"  class="header-item">SPECIAL</a></li>
+              <li><a href="#reservation"  class="header-item">RESERVATION</a></li>
+              <li><a href="#gallery"  class="header-item">GALLERY</a></li>
+              <li><a href="#contact"  class="header-item">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div> 
+      </div>
+    </header>
+    <main class="main">
+      <section tabindex="-1"  id="home" class="carousel hero-slider" data-carousel>
+       <button class="carousel-button prev" data-carousel-button="prev"><i class="fa-solid fa-angle-left"></i></button>
+       <button class="carousel-button next" data-carousel-button="next"><i class="fa-solid fa-angle-right"></i></button>
+        <ul data-slides>
+          <li class="slide" data-active>
+            <div class="slide-text">
+              <p class="title title--big">delicious italian food</p>
+              <p class="sub-heading sub-heading--small color-white">MAKING DELICIOUS ITALIAN FOOD SINCE 1990</p>
+             </div>
+             <img class="slide-image" src="images/hero-silder-italian-food-tiramisu-3.jpg" alt="tiramisu in glasses">
+          </li>
+          <li class="slide">
+            <div class="slide-text">
+              <p class="title title--big">delicious italian food</p>
+              <p class="sub-heading sub-heading--small color-white">MAKING DELICIOUS ITALIAN FOOD SINCE 1990</p>
+             </div>
+             <img class="slide-image" src="images/hero-silder-italian-food-2.jpg" alt="cheese pizza">
+          </li>
+          <li class="slide">
+            <div class="slide-text">
+              <p class="title title--big">delicious italian food</p>
+              <p class="sub-heading sub-heading--small color-white">MAKING DELICIOUS ITALIAN FOOD SINCE 1990</p>
+             </div>
+             <img class="slide-image" src="images/hero-silder-italian-food-6.jpg" alt="Sausage and potato dish">
+          </li>
+          <li class="slide">
+            <div class="slide-text">
+              <p class="title title--big">delicious italian food</p>
+              <p class="sub-heading sub-heading--small color-white">MAKING DELICIOUS ITALIAN FOOD SINCE 1990</p>
+             </div>
+             <img class="slide-image" src="images/hero-silder-italian-food-9.jpg" alt="three meat meals">
+          </li>
+        </ul>
+      </section>
+      <section tabindex="-1" class="section-padding" id="resto">
+        <div class="container">
+          <div class="resto-wrapper">
+            <div class="section-head">
+              <h2 class="heading-section">The Restaurant</h2>
+              <span class="heading-section-desc">Welcome To Harmony Food Restaurant</span>
+            </div>
+           <div class="resto even-columns">
+            <div>
+              <div class="resto-image">
+                <img src="images/resto-image-chef-cooking.jpg" alt="chef cooking in a restaurant kitchen">
+              </div>
+              <div class="resto-image">
+                <img src="images/resto-image-chef-slicing-vegetables.jpg" alt="chef slicing vegetables">
+              </div>
+            </div>
+            <div class="flow">
+              <h3>WELCOME TO Harmony Food  A JOYOUS EATERY INSPIRED BY
+                THE SPIRIT AND CULTURE OF ITALIAN CUISINE.
+              </h3>
+              <hr class="style-three">
+              <p class="sub-heading sub-heading--small">MAKING DELICIOUS ITALIAN FOOD SINCE 1990</p>
+              <p class="light-paragraph">Lorem Ipsum is simply dummy text of the printing 
+                and typesetting industry. Lorem Ipsum has been the industry's standard 
+                dummy text ever since the 1500s, when an unknown printer took a galley of
+                type and scrambled it to make a type specimen book galley of type and 
+                scrambled.
+              </p>
+              <img id="signature" src="images/signature.png" alt="signature">
+             </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <!-- Background is images -->
+        <div class="reservation">
+            <div class="reservation-text">
+              <h2 class="title title--big">make a reservation</h2>
+              <p class="sub-heading sub-heading--small color-white">OPENS 8:00 AM - 10:00 PM, EVERY DAY OF THE WEEK</p>
+              <button class="btn">Book a table</button>
+            </div>
+        </div>
+      </section>
+      <!-- START MENU -->
+      <section class="section-padding" tabindex="-1" id="menu">
+        <div class="container">
+          <div class="tasty-menu">
+             <div class="section-head">
+                <h2 class="heading-section">Harmony Food Menu</h2>
+                <p class="heading-section-desc">Variety Of Delicious Plate</p>
+             </div>
+             <div class="tasty-menu-btns">
+                <button class="tasty-menu-btn active-item" data-cat=".all">ALL</button>
+                <button class="tasty-menu-btn" data-cat=".breakfast">BREAKFAST</button>
+                <button class="tasty-menu-btn" data-cat=".lunch">LUNCH</button>
+                <button class="tasty-menu-btn" data-cat=".dessert">DESSERT</button>
+                <button class="tasty-menu-btn" data-cat=".beverages">BEVERAGES</button>
+             </div>
+             <div class="tasty-menu-items breakfast all">
+              <div class="tasty-menu-item">
+                  <h3 class="title title--small">omlettes</h3>
+                  <div>
+                  <div class="tasty-menu-dish">
+                    <div class="tasty-menu-image-box">
+                      <img src="images/menu-breakfast-tasty-omlette.jpg" alt="bacon omlettes" class="tasty-menu-image">
+                    </div>
+                    <div class="tasty-menu-text small-flow">
+                      <h4 class="sub-heading sub-heading--small">Harmony Food CREATE AN OMELETTE</h4>
+                      <p class="light-paragraph small-paragraph">Select Any Four of the Following: Bacon, Ham, Sausage, Cheddar.</p>
+                      <span class="price">$15</span>
+                    </div>
+                  </div>
+                  <div class="tasty-menu-dish">
+                    <div class="tasty-menu-image-box">
+                      <img src="images/menu-breakfast-farmhouse-omlettes.jpg" alt="omlettes with sauted potatoes" class="tasty-menu-image">
+                    </div>
+                    <div class="tasty-menu-text small-flow">
+                      <h4 class="sub-heading sub-heading--small">FARMHOUSE OMELETTE</h4>
+                      <p class="light-paragraph small-paragraph">Sauteed Potatoes, Bacon, Grilled Onions, and Melted Cheese Topped.</p>
+                      <span class="price">$19</span>
+                    </div>
+                  </div>
+                  <div class="tasty-menu-dish">
+                    <div class="tasty-menu-image-box">
+                      <img src="images/menu-breakfast-chef-s-omelette.jpg" alt="avocado omlettes" class="tasty-menu-image">
+                    </div>
+                    <div class="tasty-menu-text small-flow">
+                      <h4 class="sub-heading sub-heading--small">CHEF'S OMELETTE</h4>
+                      <p class="light-paragraph small-paragraph">Avocado, Mushrooms, Green Onion, Tomato, Garlic and Shallots.</p>
+                      <span class="price">$21</span>
+                    </div>
+                  </div>
+                  </div>
+              
+                </div>
+                <div class="tasty-menu-item">
+                  <h3 class="title title--small">waffle</h3>
+                  <div></div>
+                  <div class="tasty-menu-dish">
+                    <div class="tasty-menu-image-box">
+                      <img src="images/menu-breakfast-waffle-brunch.jpg" alt="french toast with syrup and Strawberries" class="tasty-menu-image">
+                    </div>
+                    <div class="tasty-menu-text small-flow">
+                      <h4 class="sub-heading sub-heading--small">WAFFLE BRUNCH</h4>
+                      <p class="light-paragraph small-paragraph">A Small Order of French Toast, Bacon and Strawberries.</p>
+                      <span class="price">$9</span>
+                    </div>
+                  </div>
+                  <div class="tasty-menu-dish">
+                    <div class="tasty-menu-image-box">
+                      <img src="images/menu-breakfast-waffle-benedict.jpg" alt="Benedict Waffle" class="tasty-menu-image">
+                    </div>
+                    <div class="tasty-menu-text small-flow">
+                      <h4 class="sub-heading sub-heading--small">WAFFLES BENEDICT</h4>
+                      <p class="light-paragraph small-paragraph">Our Benedict Waffle Topped with Maple-Butter Syrup</p>
+                      <span class="price">$11</span>
+                    </div>
+                  </div>
+                  <div class="tasty-menu-dish">
+                    <div class="tasty-menu-image-box">
+                      <img src="images/menu-breakfast-belgian-waffle.jpg" alt="belgian waffles" class="tasty-menu-image">
+                    </div>
+                    <div class="tasty-menu-text small-flow">
+                      <h4 class="sub-heading sub-heading--small">BELGIAN WAFFLE</h4>
+                      <p class="light-paragraph small-paragraph">Available with Strawberries, Pecans and Chantilly Cream.</p>
+                      <span class="price">$14</span>
+                    </div>
+                  </div>
+                </div>
+                </div>
+             </div>
+             <div class="tasty-menu-items lunch all">
+              <div class="tasty-menu-item">
+                <h3 class="title title--small">appetizers</h3>
+                <div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-lunch-crabcake.jpg" alt="mustard and tartar crabcakes" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">CRABCAKES</h4>
+                    <p class="light-paragraph small-paragraph">Served with Mustard and Tartar Sauce.Served with Mustard and Tartar Sauce</p>
+                    <span class="price">$25</span>
+                  </div>
+                </div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-lunch-buffalo-wing.jpg" alt="" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">BUFFALO WINGS</h4>
+                    <p class="light-paragraph small-paragraph">Fried Wings Covered in Hot Sauce and Served with Blue Cheese Dressing.</p>
+                    <span class="price">$28</span>
+                  </div>
+                </div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-lunch-quesadilla.jpg" alt="fried buffalo wings" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">QUESADILLA</h4>
+                    <p class="light-paragraph small-paragraph">Grilled Flour Tortilla Filled with Melted Cheese, Green Onions.</p>
+                    <span class="price">$27</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="tasty-menu-item">
+                <h3 class="title title--small">pizza</h3>
+                <div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-lunch-cheese-pizza.jpg" alt="cheese pizza" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">CHEESE PIZZA</h4>
+                    <p class="light-paragraph small-paragraph">Topped with Fresh Mozzarella, White Cheddar and Fontina Cheeses.</p>
+                    <span class="price">$9</span>
+                  </div>
+                </div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-lunch-pizza-pepperoni.jpg" alt="pepperoni pizza" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">PEPPERONI PIZZA</h4>
+                    <p class="light-paragraph small-paragraph">Fresh Mozzarella and Fontina Cheeses and is Topped.</p>
+                    <span class="price">$14</span>
+                  </div>
+                </div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-lunch-bbq-chicken-pizza.jpg" alt="chicken pizza with smoked gouda" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">B.B.Q. CHICKEN PIZZA</h4>
+                    <p class="light-paragraph small-paragraph">Smoked Gouda, Red Onion and Cilantro.</p>
+                    <span class="price">$12</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="tasty-menu-items dessert all">
+              <div class="tasty-menu-item">
+                <h3 class="title title--small">cheesecake</h3>
+                <div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-dessert-graham-cracker-crust-cheesecake.jpg" alt="creamy cheesecake" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">ORIGINAL</h4>
+                    <p class="light-paragraph small-paragraph">Our Famous Creamy Cheesecake with a Graham Cracker Crust.</p>
+                    <span class="price">$15</span>
+                  </div>
+                </div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-dessert-strawberry-cheesecake.jpg" alt="strawberry cheesecake slice" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">STRAWBERRY CHEESECAKE</h4>
+                    <p class="light-paragraph small-paragraph">The Original Topped with Glazed Fresh Strawberries.</p>
+                    <span class="price">$19</span>
+                  </div>
+                </div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-dessert-lemon-meringue-cheesecake.jpg" alt="lemon meringue chessecake" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">LEMON MERINGUE CHEESECAKE</h4>
+                    <p class="light-paragraph small-paragraph">Lemon Cream Cheesecake Topped with Layers of Lemon Mousse.</p>
+                    <span class="price">$21</span>
+                  </div>
+                </div>
+               </div>
+              </div>
+              <div class="tasty-menu-item">
+                <h3 class="title title--small">ice cream</h3>
+                <div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-dessert-hot-fudge-sundae.jpg" alt="hot fudge sundae" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">HOT FUDGE SUNDAE</h4>
+                    <p class="light-paragraph small-paragraph">Topped with Whipped Cream and Almonds.</p>
+                    <span class="price">$13</span>
+                  </div>
+                </div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-dessert-hot-fudge-brownie-sundae.jpg" alt="chocolate brownies sundae" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">CHOCOLATE BROWNIE SUNDAE</h4>
+                    <p class="light-paragraph small-paragraph">CHOCOLATE BROWNIE SUNDAE</p>
+                    <span class="price">$7</span>
+                  </div>
+                </div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-dessert-ice-cream-bowel.jpg" alt="ice cream in bowel" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">BOWL OF ICE CREAM</h4>
+                    <p class="light-paragraph small-paragraph">Two and a half scoops of your choice of Vanilla or Coffee Ice.</p>
+                    <span class="price">$6</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="tasty-menu-items beverages all">
+              <div class="tasty-menu-item">
+                <h3 class="title title--small">iced drinks</h3>
+                <div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-dessert-strawberry-fruit-smoothie.jpg" alt="strawberry fruit smoothie" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">STRAWBERRY FRUIT SMOOTHIE</h4>
+                    <p class="light-paragraph small-paragraph">Strawberries, Orange and Pineapple Juices, Coconut and Banana.</p>
+                    <span class="price">$9</span>
+                  </div>
+                </div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-dessert-tropical-smoothie.jpg" alt="tropical dmoothie" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">TROPICAL SMOOTHIE</h4>
+                    <p class="light-paragraph small-paragraph">Mango, Passion Fruit, Pineapple and Coconut All Blended with Ice.</p>
+                    <span class="price">$11</span>
+                  </div>
+                </div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-dessert-frozen-iced-mango.jpg" alt="frozen iced mango" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">FROZEN ICED MANGO</h4>
+                    <p class="light-paragraph small-paragraph">Mango, Tropical Juices and a Hint of Coconut Blended with Ice and.</p>
+                    <span class="price">$8</span>
+                  </div>
+                </div>
+              </div>
+              </div>
+              <div class="tasty-menu-item">
+                <h3 class="title title--small">hot drinks</h3>
+                <div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-hot-drinks-cafe-latte.jpg" alt="caffe latte in a blue cup" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">CAFÉ LATTE</h4>
+                    <p class="light-paragraph small-paragraph">Double Espresso, Extra Steamed Milk.</p>
+                    <span class="price">$3</span>
+                  </div>
+                </div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-hot-drinks-cafe-mocha.jpg" alt="cafe mocha" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">CAFÉ MOCHA</h4>
+                    <p class="light-paragraph">Espresso, Chocolate, Steamed Milk, Whipped Cream.</p>
+                    <span class="price">$4</span>
+                  </div>
+                </div>
+                <div class="tasty-menu-dish">
+                  <div class="tasty-menu-image-box">
+                    <img src="images/menu-hot-drinks-hot-chocolate.jpg" alt="hot chaclate with whipped cream" class="tasty-menu-image">
+                  </div>
+                  <div class="tasty-menu-text small-flow">
+                    <h4 class="sub-heading sub-heading--small">HOT CHOCOLATE</h4>
+                    <p class="light-paragraph small-paragraph">A huge, steamy serving of real hot chocolate with whipped cream.</p>
+                    <span class="price">$3</span>
+                  </div>
+                </div>
+              </div>
+              </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- END MENU -->
+     <section>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="testimonial-carousel-content flow">
+              <span class="sub-heading sub-heading--small color-white">THE TELEGRAPH</span> 
+              <p class="white-paragraph">
+                The food is plentiful and delicious, it is all part of the
+                 "old world" sort of dining experience.
+              </p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+          </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-carousel-content flow">
+              <span class="sub-heading sub-heading--small color-white">CHICAGO MAGAZINE</span> 
+              <p class="white-paragraph">
+                It’s an unlikely setting for an exquisite dining experience—served 
+                up by a couple straight out of a rom-com plot.
+              </p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+             </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-carousel-content flow">
+              <span class="sub-heading sub-heading--small color-white">MAGAZIN RESTAURANT</span> 
+              <p class="white-paragraph">
+                Huge portions, great food, fast service. This location obviously 
+                is always packed due to being in Times Sq.
+              </p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star-half-stroke"></i>
+              </div>
+             </div>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+     </section>
+      <section class="section-padding" tabindex="-1" id="special">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="heading-section">Today's Special</h2>
+            <p class="heading-section-desc">Special Plate By The Chef</p>
+          </div>
+          <div class="special">
+            <div class="special-item">
+              <div class="special-text">
+                <div>
+                    <h3 class="sub-heading sub-heading--small">Ensalada Cesar</h3>
+                    <p class="white-paragraph">Mango, Passion Fruit, Pineapple 
+                      and Coconut All Blended with Ice.
+                    </p>
+                </div>
+                <span class="price">$23</span>
+              </div>
+              <div class="special-image-box">
+                <img src="images/special-ensalada-cesar.jpg" alt="Ensalada cesar dish">
+              </div>
+            </div>
+            <div class="special-item">
+              <div class="special-image-box">
+                <img src="images/special-mushrom-steak.jpg" alt="mushroom steak">
+              </div>
+              <div class="special-text">
+                <div>
+                <h3 class="sub-heading sub-heading--small black-color">MUSHROOM STEAK</h3>
+                <p class="white-paragraph">Mango, Passion Fruit, Pineapple and Coconut 
+                  All Blended with Ice.
+                </p>
+                </div>
+                <span class="price">$19</span>
+              </div>
+            </div>
+            <div class="special-item">
+              <div class="special-text">
+                <div>
+                <h3 class="sub-heading sub-heading--small black-color">MUSHROOM STEAK</h3>
+                <p class="white-paragraph">Mango, Passion Fruit, Pineapple and Coconut 
+                  All Blended with Ice.
+                </p>
+                </div>
+                <span class="price">$22</span>
+              </div>
+              <div class="special-image-box">
+                <img src="images/special-ham-benedict.jpg" alt="ham benedict">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- RESERVATION FORM -->
+      <section class="section-padding" tabindex="-1" id="reservation">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="heading-section">Reservation</h2>
+            <p class="heading-section-desc">Book A Table</p>
+            <p class="light-oaragraph">Please choose your reservation date with specific time and number
+              of people to book a table
+            </p> 
+          </div>
+          <div class="reservation-form">
+            <form class="" action="">
+              <div class="input-element">
+                <label for="name">Your name:</label>
+                <div class="input-group">
+                  <input type="text" name="name" id="name">
+                  <i class="fa-solid fa-user"></i>
+                </div>
+              </div>
+              <div class="input-element">
+                <label for="phone">Your Phone:</label>
+                <div class="input-group">
+                <input type="phone" name="phone" id="phone">
+                <i class="fa-solid fa-phone"></i>
+                </div>
+              </div>
+              <div class="input-element">
+                <label for="email">Your Email:</label>
+                <div class="input-group">
+                <input type="email" name="email" id="email">
+                <i class="fa-solid fa-envelope"></i>
+                </div>
+              </div>
+              <div class="input-element">
+                <label for="table">Type of table:</label>
+                <input type="number" name="table" id="table">
+              </div>
+              <div class="input-element half">
+                <label for="date">Date:</label>
+                <div class="input-group">
+                <input type="date" name="date" id="date">
+                <i class="fa-regular fa-calendar"></i>
+                </div>
+              </div>
+              <div class="input-element half">
+                <label for="time">Time:</label>
+                <div class="input-group">
+                <input type="time" name="time" id="time">
+                <i class="fa-solid fa-clock"></i>
+                </div>
+              </div>
+              <input type="submit" value="BOOK A TABLE" class="btn" data-type="form">
+            </form>
+          </div>
+        </div>
+      </section>
+           <!-- IMAGES SLIDE -->
+       <section tabindex="-1" id="gallery" class="carousel" data-images data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev"><i class="fa-solid fa-angle-left"></i></button>
+            <button class="carousel-button next" data-carousel-button="next"><i class="fa-solid fa-angle-right"></i></button>
+       
+             <ul data-slides>
+               <li class="slide" data-active>
+                  <img class="slide-image" src="images/images-slider-omelette.jpg" alt="mushroom omlette">
+               </li>
+               <li class="slide">
+                  <img class="slide-image" src="images/images-slider-sandwich-lettuce-cheese.jpg" alt="lettuce snadwish with cheese">
+               </li>
+               <li class="slide">
+                  <img class="slide-image" src="images/images-slider-brown-and-white-cake.jpg" alt="black and white cake">
+               </li>
+               <li class="slide">
+                  <img class="slide-image" src="images/images-slider-smothie.jpg" alt="strawberry smoothie">
+               </li>
+               <li class="slide">
+                  <img class="slide-image" src="images/images-slider-brown-and-white-strawberry-cake.jpg" alt="strawberry layer cake with cream">
+               </li>
+             </ul>     
+      </section>
+     
+      <section class="section-padding" tabindex="-1" id="contact">
+        <div class="info">
+          <div class="info-map">
+            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d859.
+            0372672989661!2d-9.70954298252129!3d30.
+            54509212188925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+            1!3m3!1m2!1s0xdb24d45663b5c3d%3A0xc9e02878bb9f36e9!2sRestaurant%20Windy%20Bay!5e0!3m2!1sar!2sma!4v1663168953030!5m2!1sar!2sma" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe> -->
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99030.
+          00284867856!2d-84.54040144999998!3d39.13634005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+          1!3m3!1m2!1s0x884051b1de3821f9%3A0x69fb7e8be4c09317!2z2LPZitmG2LPZitmG2KfYqtmK2Iwg2KPZ
+          iNmH2KfZitmI2Iwg2KfZhNmI2YTYp9mK2KfYqiDYp9mE2YXYqtit2K_YqQ!5e0!3m2!1seng!2sma!4v166421207
+          2684!5m2!1seng!2sma" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+          </div>
+          <div class="info-text">
+            <div>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-vimeo-v"></i>
+            </div>
+            <div>
+              <p class="sub-heading sub-heading--small">Opens Daily 8:00 AM - 10:00 PM</p>
+              <p class="light-paragraph">Dear guests, you are welcomed to dine
+                with us at Harmony Food restaurant. Have a pleasant dining experience.
+              </p>
+            </div>
+            <ul class="info-adress">
+              <li> 
+                 <address class="light-paragraph">
+                  3805 Edwards Rd <br>
+                  Cincinnati, OH 45209 USA
+                </address>
+              </li>
+              <li>
+              <ul class="info-contact light-paragraph">
+                <li>Phone: (513) 352-3209</li>
+                <li>Fax: (513) 352-6220</li>
+                <li>Email :
+                  <a href="mailto:customers@harmonyfood.net">customers@harmonyfood.net</a></li>
+              </ul>
+              </li>
+            </ul>
+            <div class="copyright light-paragraph">Created by <span class="developer">IMANE DRISSI</span>Design inspired from Tasty <span>&#169;</span>2022 all rights reserved</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
