@@ -438,7 +438,7 @@ hr.style-three {
 /*************** reservation***********/
 .reservation {
   height: 80vh;
-  background-image: url("/images/second-slider-cover.jpg");
+  background-image: url("images/second-slider-cover.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
