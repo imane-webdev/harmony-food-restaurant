@@ -438,7 +438,7 @@ hr.style-three {
 /*************** reservation***********/
 .reservation {
   height: 80vh;
-  background-image: url("images/second-slider-cover.JPG");
+  background-image: url("../images/second-slider-cover.jpg");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -593,7 +593,7 @@ hr.style-three {
 /* testemonials */
 
 .swiper {
-  background-image: url("./../images/third-slider-pasta.jpg");
+  background-image: url("../images/third-slider-pasta.jpg");
   background-color: #757575;
   width: 100%;
   height: 80vh;
